@@ -4,7 +4,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 let htmlPageNames = ['crocembouche', 'tarttaten'];
 let multipleHtmlPlugins = htmlPageNames.map(name => {
   return new HtmlWebpackPlugin({
-    template: `./src/${name}.html`,
+    template: `./${name}.html`,
     filename: `${name}.html`,
     chunks: ['main']
   })
@@ -31,7 +31,7 @@ module.exports = {
 
   plugins: [
     new HtmlWebpackPlugin({
-      template: './src/index.html',
+      template: './index.html',
       chunks: ['main']
     })
   ].concat(multipleHtmlPlugins),
