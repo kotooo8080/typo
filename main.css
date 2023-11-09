@@ -1,0 +1,177 @@
+/*!*********************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/assets/scss/style.scss ***!
+  \*********************************************************************************************************************/
+@font-face {
+  font-family: "Futura";
+  src: local("Futura"), url(b98023a38b9d5f76ae41.ttf) format("truetype");
+  font-weight: normal; }
+
+@font-face {
+  font-family: "Futura";
+  src: local("Futura"), url(95c0e147b4d877810c51.ttf) format("truetype");
+  font-weight: bold; }
+
+@font-face {
+  font-family: "Hermitype";
+  src: url(d3f2fc681d1ebf84c56c.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Coworking";
+  src: url(b710030478984fdcb04f.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "ZtChablis";
+  src: url(b60c6ffb46f3e117ef35.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Caravan";
+  src: url(172c9c63008627fda2b6.otf) format("opentype"); }
+
+body {
+  display: flex;
+  justify-content: center;
+  background-color: #f3eeea;
+  font-family: "Futura", sans-serif;
+  font-size: 16px;
+  hyphens: auto; }
+
+nav {
+  margin-top: 30px;
+  margin-bottom: 200px;
+  font-size: 20px; }
+  nav .nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+    nav .nav-list li {
+      list-style-type: none; }
+      nav .nav-list li a {
+        color: #000;
+        text-decoration: none;
+        transition: color .2s ease-in-out; }
+        nav .nav-list li a:visited {
+          color: #000; }
+        nav .nav-list li a:hover {
+          color: #8d6e73; }
+      nav .nav-list li:not(:last-child) {
+        margin-right: 40px; }
+    nav .nav-list.__caramel li a:hover {
+      color: #d39353; }
+    nav .nav-list.__pear li a:hover {
+      color: #a09c42; }
+
+h1, h2, h3 {
+  margin: 0; }
+
+h1 {
+  font-family: "Hermitype", sans-serif;
+  font-size: 80px;
+  letter-spacing: 3px;
+  margin-bottom: 0; }
+
+h2 {
+  font-family: "ZtChablis", sans-serif;
+  font-size: 26px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  font-weight: 100; }
+
+h3 {
+  font-family: "Caravan", sans-serif;
+  font-size: 85px;
+  line-height: 32px;
+  margin-bottom: 100px;
+  margin-top: 20px;
+  font-weight: 100;
+  margin-left: 20px;
+  color: #8d6e73; }
+  h3.__caramel {
+    color: #d39353; }
+
+h4 {
+  font-family: "ZtChablis", sans-serif;
+  font-size: 25px;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+  font-weight: 100; }
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+
+.recipe {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 45%;
+  align-content: space-between;
+  list-style: none;
+  margin: 0; }
+  .recipe li {
+    margin-bottom: 20px; }
+    .recipe li::before {
+      content: "\2014";
+      margin-left: -20px;
+      margin-right: 4px; }
+
+.hr {
+  width: 30%;
+  height: 1px;
+  background-color: #8d6e73;
+  margin: 0 auto; }
+  .hr.__small {
+    width: 20%;
+    margin-bottom: 40px; }
+  .hr.__caramel {
+    background-color: #d39353; }
+  .hr.__pear {
+    background-color: #a09c42; }
+
+.content {
+  max-width: 1200px; }
+
+.ingr {
+  display: flex;
+  margin: 80px 0;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  color: #8d6e73;
+  text-align: center; }
+  .ingr span {
+    font-family: "Coworking", sans-serif;
+    font-size: 37px; }
+  .ingr .ingr-small {
+    font-size: 20px;
+    margin-left: 4px; }
+  .ingr.__big {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px; }
+  .ingr.__caramel {
+    color: #d39353; }
+
+.intro {
+  font-size: 20px;
+  font-weight: normal;
+  margin-bottom: 80px; }
+
+.proc {
+  margin-top: 80px; }
+  .proc h2 {
+    margin-bottom: 40px; }
+  .proc__content {
+    margin-top: 50px; }
+
+.conclusion {
+  font-family: "ZtChablis", sans-serif;
+  font-size: 25px;
+  margin-top: 30px;
+  margin-bottom: 200px; }
+
+.__pear {
+  color: #a09c42; }
+
