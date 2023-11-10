@@ -101,7 +101,8 @@ h4 {
   flex-wrap: wrap;
   width: 45%;
   align-content: space-between;
-  margin: 0; }
+  margin: 0;
+  padding-left: 32px; }
   .recipe li {
     margin-bottom: 20px; }
     .recipe li::marker {
