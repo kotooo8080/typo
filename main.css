@@ -104,8 +104,6 @@ h4 {
   margin: 0; }
   .recipe li {
     margin-bottom: 20px; }
-    .recipe li span {
-      margin-left: -10px; }
     .recipe li::marker {
       font-family: "Coworking", sans-serif; }
 
