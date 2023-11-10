@@ -101,14 +101,13 @@ h4 {
   flex-wrap: wrap;
   width: 45%;
   align-content: space-between;
-  list-style: none;
   margin: 0; }
   .recipe li {
     margin-bottom: 20px; }
-    .recipe li::before {
-      content: "\2014";
-      margin-left: -20px;
-      margin-right: 4px; }
+    .recipe li span {
+      margin-left: -10px; }
+    .recipe li::marker {
+      font-family: "Coworking", sans-serif; }
 
 .hr {
   width: 30%;
