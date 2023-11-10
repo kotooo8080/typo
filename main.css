@@ -124,7 +124,7 @@ h4 {
     background-color: #a09c42; }
 
 .content {
-  max-width: 1200px; }
+  max-width: 900px; }
 
 .ingr {
   display: flex;
@@ -142,6 +142,12 @@ h4 {
   .ingr.__big {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px; }
+  .ingr.__medium {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 30px;
     grid-row-gap: 30px; }
